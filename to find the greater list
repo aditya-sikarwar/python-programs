@@ -1,0 +1,21 @@
+L=[1,2,3,4,5,6]
+x=("apple","box","cat","dog","goal")
+if len(L)>len(x):
+    print("L is greater")
+elif len(x)>len(L):
+    print("x is greater")
+else:
+    print("Both are equal") 
+
+     #OR
+     
+L=[1,2,3,4,5,6]
+x=("apple","box","cat","dog","goal")
+a=L.index(L[len(L)-1])
+b=x.index(x[len(x)-1])
+if a>b:
+    print("L is greater")
+elif b>a:
+    print("x is greater")
+else:
+    print("Both are equal") 
