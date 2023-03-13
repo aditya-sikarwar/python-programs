@@ -1,0 +1,10 @@
+x=["apple","box","cat","dog","goal"]
+print(x[2])#print index 2 element
+print(x)#print list element
+x.remove(x[3])#remove index 3 element
+print(x)
+print(x[3])
+x.remove('goal')#remove element from value
+print(x)
+x.reverse()#reverse elements of list
+print(x)
