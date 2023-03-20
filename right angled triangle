@@ -1,0 +1,9 @@
+a=float(input("enter perpendicular: "))
+b=float(input("enter base: "))
+c=float(input("enter hypotaneous: "))
+d=(a**2)+(b**2)
+e=c**2
+if e==d:
+    print("right angled")
+else:
+    print("not")
