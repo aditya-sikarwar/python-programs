@@ -1,0 +1,16 @@
+a=int(input("Was the day your birthday(1-if yes and 0-if no): "))
+b=int(input("Enter the speed: "))
+if(a==0 and b<=60 ):
+    print("0")
+elif(a==1 and b<=65):
+    print("0")
+elif(a==0 and b>=61 and b<=80):
+    print("1")
+elif(a==1 and b>=61 and b<=85):
+    print("1")
+elif(a==0 and b>=81):
+    print("2")
+elif(a==1 and b>=86):
+    print("2")
+else:
+    print("invalid")
