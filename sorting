@@ -1,0 +1,3 @@
+a=("98","gh","bc","42","66","zx","as","sa","15","ij","abcds")
+b=sorted(a)
+print(b)
