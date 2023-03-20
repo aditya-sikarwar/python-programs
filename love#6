@@ -1,0 +1,6 @@
+a=int(input("Enter first no.: "))
+b=int(input("Enter second no.: "))
+if (a==6 or b==6 or a+b==6 or a-b==6 or b-a==6 or a*b==6 or a/b==6):
+    print("true")
+else:
+    print("false")
