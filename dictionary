@@ -1,0 +1,34 @@
+#-program to create student details using dictionary.
+a={
+    "name" : "aditya" ,
+    "roll no" : "5",
+    "section" : "D-1",
+    "subject" : "python",
+    "college" : "GLA University"}
+print(a)
+#-convert into list.
+b=list(a)
+print(b)
+#-print a particular value from the dict.
+print(a.get("name"))
+print(a.values())
+#-to update a values of existing key
+a["roll no"]=6
+print(a)
+#-to delt. a key
+#del a["college"]
+print(a)
+#to apply a loop
+for i in a:
+    print(a[i])
+#dict. mathod (all)
+x=all(a["name"])
+print(x)
+#
+vowel=[True, True,  False]
+y=all(vowel)
+print(y)
+#length of dict.
+print(len(a))
+#mid element of a dict
+print(a.get(b[len(b)//2]))
