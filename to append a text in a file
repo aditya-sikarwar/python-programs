@@ -1,0 +1,16 @@
+x=open("my.txt",'w+')
+x.write('''this is my first file.
+second line.
+third line.
+forth line.''')
+x.close()
+
+x=open("my.txt",'a+')
+x.write("\nfifth line")
+
+x.close()
+
+x=open("my.txt",'r')
+for i in x:
+    print(i)
+x.close()
