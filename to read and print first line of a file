@@ -1,0 +1,9 @@
+x=open("my.text",'w+')
+x.write('''this is my first file.
+            second line.
+            third line.
+            forth line.''')
+x.close()
+x=open("my.text",'r')
+print(x.readline())
+x.close()
